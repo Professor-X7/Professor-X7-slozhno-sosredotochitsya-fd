@@ -1,1 +1,1 @@
-https://github.com/Professor-X7/slozhno-sosredotochitsya-fd
+https://github.com/slozhno-sosredotochitsya-fd
