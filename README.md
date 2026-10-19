@@ -1,1 +1,1 @@
-https://github.com/Professor-X7/slozhno-sosredotochitsya-ed
+https://github.com/Professor-X7/slozhno-sosredotochitsya-fd
