@@ -1,1 +1,1 @@
-https://github.com/slozhno-sosredotochitsya-fd
+slozhno-sosredotochitsya-fd
