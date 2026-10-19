@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ru" class="theme-auto">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="description" content="Сложно сосредоточиться — о внимании, отдыхе и цифровых привычках.">
+  <title>Сложно сосредоточиться</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="./favicon.ico" sizes="any">
+  <link rel="icon" href="./images/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="./styles/globals.css">
+  <link rel="stylesheet" href="./styles/variables.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/dark.css">
+  <link rel="stylesheet" href="./styles/light.css">
+  <script src="./scripts/theme-switcher.js" defer></script>
+</head>
+<body class="page">
+  <a class="skip-link" href="#main-content">Перейти к содержимому</a>
+
+  <header class="header decor-corners">
+    <span class="header__record" aria-hidden="true">REC</span>
+
+    <nav class="header__theme-menu" aria-label="Выбор цветовой темы">
+      <ul class="header__theme-menu-list">
+        <li>
+          <button class="header__theme-menu-button" type="button" data-theme="dark" aria-pressed="false">
+            Неон
+          </button>
+        </li>
+        <li>
+          <button class="header__theme-menu-button" type="button" data-theme="light" aria-pressed="false">
+            День
+          </button>
+        </li>
+        <li>
+          <button class="header__theme-menu-button header__theme-menu-button_active" type="button" data-theme="auto" aria-pressed="true">
+            Авто
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <h1 class="header__title">Сложно<br>сосредоточиться</h1>
+    <p class="header__description title-decor">
+      Почему сосредоточиться так сложно, особенно когда очень надо
+    </p>
+  </header>
+
+  <main class="content" id="main-content">
+    <section class="content-section" aria-labelledby="why-title">
+      <h2 class="section-title" id="why-title">Почему сосредоточиться так сложно</h2>
+      <div class="section-content">
+        <article class="text-card">
+          <h3 class="card-title title-decor">Многозадачность</h3>
+          <p>Особенно сложно сосредоточиться, когда задач много и все они — важные. Где же найти ту самую кнопку «сделать всё сразу»? Чем больше дел одновременно, тем сложнее удерживать внимание на каждом из них.</p>
+        </article>
+        <article class="text-card">
+          <h3 class="card-title title-decor">Дофамин</h3>
+          <p>Сделать что-то интересное проще, чем скучное. Быстрые удовольствия — например, уведомления и лента соцсетей — легко перетягивают внимание на себя.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section content-section_concentrate" aria-labelledby="help-title">
+      <h2 class="section-title" id="help-title">Что помогает сосредоточиться</h2>
+      <div class="section-content">
+        <article class="text-card">
+          <h3 class="card-title title-decor">Правильное питание</h3>
+          <p>Регулярная еда, вода и комфортный режим помогают поддерживать силы в течение дня. Не существует волшебного продукта, который мгновенно улучшит концентрацию.</p>
+        </article>
+        <article class="text-card">
+          <h3 class="card-title title-decor">Прогулка</h3>
+          <p>Небольшая прогулка помогает переключиться и дать голове передышку. Иногда полезнее на несколько минут выйти из комнаты, чем ещё сильнее заставлять себя работать.</p>
+        </article>
+        <article class="text-card">
+          <h3 class="card-title title-decor">Выключить уведомления</h3>
+          <p>На время работы включите режим «Не беспокоить», уберите лишние вкладки и оставьте под рукой только то, что нужно для текущей задачи.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section content-section_reasons" aria-labelledby="tips-title">
+      <h2 class="section-title" id="tips-title">Как концентрироваться лучше, чем золотая рыбка</h2>
+      <div class="section-content">
+        <article class="text-card">
+          <h3 class="card-title title-decor card-title_regular">Пять секунд</h3>
+          <p>Когда хочется отвлечься, сделайте паузу и спросите себя, что вы собирались делать. Это помогает заметить импульс, прежде чем переключаться.</p>
+        </article>
+        <article class="text-card">
+          <h3 class="card-title title-decor card-title_regular">Упростить задачу</h3>
+          <p>Разбейте большое дело на небольшие шаги: открыть документ, набросать план, выполнить первый пункт. Конкретное действие проще начать, чем абстрактное «поработать».</p>
+        </article>
+        <article class="text-card">
+          <h3 class="card-title title-decor card-title_regular">Убрать лишнее</h3>
+          <p>Закройте ненужные вкладки, уберите телефон подальше и положите рядом всё, что пригодится. Чем меньше поводов отвлечься, тем легче вернуться к задаче.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery" aria-labelledby="gallery-title">
+      <h2 class="gallery__title title-decor" id="gallery-title">А можно проще?</h2>
+      <div class="gallery__grid">
+        <img class="gallery__image gallery__image_sunset" src="./images/gallery-sunset.svg" alt="Розовый закат над тёмными холмами" loading="lazy" decoding="async">
+        <img class="gallery__image gallery__image_ice" src="./images/gallery-ice.svg" alt="Голубые ледяные геометрические формы" loading="lazy" decoding="async">
+        <img class="gallery__image gallery__image_tape" src="./images/gallery-tape.svg" alt="Розовая музыкальная кассета" loading="lazy" decoding="async">
+        <img class="gallery__image gallery__image_books" src="./images/gallery-books.svg" alt="Стопки книг разных цветов" loading="lazy" decoding="async">
+        <img class="gallery__image gallery__image_orb" src="./images/gallery-orb.svg" alt="Светящийся розово-фиолетовый шар" loading="lazy" decoding="async">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer decor-corners">
+    <h2 class="footer__title">Сосредоточься</h2>
+  </footer>
+</body>
+</html>

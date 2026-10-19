@@ -1,0 +1,18 @@
+/* Значения тёмной темы по умолчанию; темы переопределяют только цветовые переменные. */
+:root {
+  color-scheme: dark light;
+  --font-main: "IBM Plex Mono", "Courier New", monospace;
+  --page-background: #000028;
+  --page-background-image: url("../images/background-dark.svg");
+  --text-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --accent-color-soft: rgb(255 0 112 / 40%);
+  --title-color: #db00ff;
+  --decor-text-color: #000028;
+  --decor-background: #ff0070;
+
+  --content-width: 1024px;
+  --page-padding: 10px;
+  --section-gap: 50px;
+  --line-height: 1.3;
+}
