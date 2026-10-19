@@ -1,1 +1,1 @@
-slozhno-sosredotochitsya-fd
+'slozhno-sosredotochitsya-fd'
